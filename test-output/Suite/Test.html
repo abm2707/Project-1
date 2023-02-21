@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 21 23:33:44 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>624 seconds (624805 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNG.TC_11.validate_TC11()'><b>validate_TC11</b><br>Test class: TestNG.TC_11</td>
+<td></td>
+<td>22</td>
+<td>TestNG.TC_11@44ebcd03</td></tr>
+<tr>
+<td title='TestNG.TC_18.validate_TC18()'><b>validate_TC18</b><br>Test class: TestNG.TC_18</td>
+<td></td>
+<td>29</td>
+<td>TestNG.TC_18@1fa268de</td></tr>
+<tr>
+<td title='TestNG.TC_10.validate_TC10()'><b>validate_TC10</b><br>Test class: TestNG.TC_10</td>
+<td></td>
+<td>22</td>
+<td>TestNG.TC_10@2e005c4b</td></tr>
+<tr>
+<td title='TestNG.TC_16.validate_TC16()'><b>validate_TC16</b><br>Test class: TestNG.TC_16</td>
+<td></td>
+<td>19</td>
+<td>TestNG.TC_16@a514af7</td></tr>
+<tr>
+<td title='TestNG.TC_17.validtae_TC17()'><b>validtae_TC17</b><br>Test class: TestNG.TC_17</td>
+<td></td>
+<td>19</td>
+<td>TestNG.TC_17@4f6ee6e4</td></tr>
+<tr>
+<td title='TestNG.TC_08.validaye_TC08()'><b>validaye_TC08</b><br>Test class: TestNG.TC_08</td>
+<td></td>
+<td>20</td>
+<td>TestNG.TC_08@6356695f</td></tr>
+<tr>
+<td title='TestNG.TC_19.validate_TC19()'><b>validate_TC19</b><br>Test class: TestNG.TC_19</td>
+<td></td>
+<td>18</td>
+<td>TestNG.TC_19@5ffead27</td></tr>
+<tr>
+<td title='TestNG.TC_12.validate_TC12()'><b>validate_TC12</b><br>Test class: TestNG.TC_12</td>
+<td></td>
+<td>33</td>
+<td>TestNG.TC_12@4cc451f2</td></tr>
+<tr>
+<td title='TestNG.TC_03.validate_TC03()'><b>validate_TC03</b><br>Test class: TestNG.TC_03</td>
+<td></td>
+<td>30</td>
+<td>TestNG.TC_03@4fb0f2b9</td></tr>
+<tr>
+<td title='TestNG.TC_23.validate_TC23()'><b>validate_TC23</b><br>Test class: TestNG.TC_23</td>
+<td></td>
+<td>22</td>
+<td>TestNG.TC_23@4a94ee4</td></tr>
+<tr>
+<td title='TestNG.TC_14.validate_TC14()'><b>validate_TC14</b><br>Test class: TestNG.TC_14</td>
+<td></td>
+<td>35</td>
+<td>TestNG.TC_14@4fb61f4a</td></tr>
+<tr>
+<td title='TestNG.TC_13.validate_TC13()'><b>validate_TC13</b><br>Test class: TestNG.TC_13</td>
+<td></td>
+<td>40</td>
+<td>TestNG.TC_13@7b9a4292</td></tr>
+<tr>
+<td title='TestNG.TC_20.validate_TC20()'><b>validate_TC20</b><br>Test class: TestNG.TC_20</td>
+<td></td>
+<td>26</td>
+<td>TestNG.TC_20@4567f35d</td></tr>
+<tr>
+<td title='TestNG.TC_15.validate_TC15()'><b>validate_TC15</b><br>Test class: TestNG.TC_15</td>
+<td></td>
+<td>29</td>
+<td>TestNG.TC_15@3e58a80e</td></tr>
+<tr>
+<td title='TestNG.TC_22.validate_TC22()'><b>validate_TC22</b><br>Test class: TestNG.TC_22</td>
+<td></td>
+<td>25</td>
+<td>TestNG.TC_22@52e6fdee</td></tr>
+<tr>
+<td title='TestNG.TC_05.validate_TC05()'><b>validate_TC05</b><br>Test class: TestNG.TC_05</td>
+<td></td>
+<td>24</td>
+<td>TestNG.TC_05@6b927fb</td></tr>
+<tr>
+<td title='TestNG.TC_21.validate_TC21()'><b>validate_TC21</b><br>Test class: TestNG.TC_21</td>
+<td></td>
+<td>26</td>
+<td>TestNG.TC_21@694abbdc</td></tr>
+<tr>
+<td title='TestNG.TC_09.validate_TC09()'><b>validate_TC09</b><br>Test class: TestNG.TC_09</td>
+<td></td>
+<td>27</td>
+<td>TestNG.TC_09@294425a7</td></tr>
+<tr>
+<td title='TestNG.TC_06.validate_T06()'><b>validate_T06</b><br>Test class: TestNG.TC_06</td>
+<td></td>
+<td>49</td>
+<td>TestNG.TC_06@4466af20</td></tr>
+<tr>
+<td title='TestNG.TC_24.validate_TC24()'><b>validate_TC24</b><br>Test class: TestNG.TC_24</td>
+<td></td>
+<td>63</td>
+<td>TestNG.TC_24@79924b</td></tr>
+<tr>
+<td title='TestNG.TC_01.validate_TC01()'><b>validate_TC01</b><br>Test class: TestNG.TC_01</td>
+<td></td>
+<td>35</td>
+<td>TestNG.TC_01@6379eb</td></tr>
+</table><p>
+</body>
+</html>
